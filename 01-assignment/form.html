@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AltSchool Application Form</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="form.html">Application Form</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Application Form</h1>
+            <form action="#" method="post">
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name" placeholder="Enter first name"><br><br>
+
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name" placeholder="Enter last name" required><br><br>
+
+                <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="" disabled selected>Select your gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+                <option value="prefer_not_to_say">Prefer not to say</option>
+            </select><br>
+
+            <label for="date of birth">Date of Birth</label>
+            <input type="date" id="date of birth" name="Date of Birth" required><br>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="Enter email address" required><br><br>
+
+                <label for="phone number">Phone Number</label>
+                <input type="tel" id="phone number" name="phone number" placeholder="Start with country code" required><br>
+
+
+                
+                <label for="country">Country:</label>
+                <select id="country" name="country" required>
+                    <option value="" disabled selected>Select your country</option>
+                    <option value="Kenya">Kenya</option>
+                    <option value="Nigeria">Nigeria</option>
+                    <option value="South Africa">South Africa</option>
+                    <option value="Ghana">Ghana</option>
+                    <option value="other">Other</option>
+                </select><br><br>
+
+                <label for="state ">State/City of Residence</label>
+                <input type="text" id="State/City of residence" placeholder="Enter state of residence" required><br>
+
+                <label for="hear_about_us">How did you hear about us</label>
+                <select id="hear_about_us" name="hear_about_us" >
+                    <option value="" disabled selected>Select an option</option>
+                    <option value="facebook">Facebook</option>
+                    <option value="twitter">Twitter</option>
+                    <option value="instagram">Instagram</option>
+                    <option value="linkedin">LinkedIn</option>
+                    <option value="billboard">Bill Board</option>
+                    <option value="whatsapp">WhatsApp</option>
+                    <option value="friend">Friend</option>
+                    <option value="youtube">Youtube</option>
+                    <option value="other">Other</option>
+                </select>
+                <br><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter password" required><br><br>
+
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" id="confirm-password" name="confirm-password" placeholder="Enter password again"><br><br>
+
+                <p>By clicking submit, Iagree to the <strong>Terms of Use</strong> and acknowledge that i have read the <strong>Privacy Policy</strong></p>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Contact: Nairobi, Kenya</p>
+        <p>&copy; 2024 AltSchool Africa Student</p>
+    </footer>
+</body>
+
+</html>
